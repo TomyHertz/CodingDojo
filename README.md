@@ -12,7 +12,7 @@
 
 <br clear="both">
 
-<h2 align="center">⚙️This is were I learned🖥️:</h2>
+<h2 align="center">⚙️This is what I learned🖥️:</h2>
 
 ###
 
