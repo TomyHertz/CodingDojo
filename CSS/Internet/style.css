@@ -1,0 +1,246 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 790px;
+    background-color: #145274;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+}
+
+.header {
+    background-color: white;
+}
+
+.headerTxt {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 29pt;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.globe {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banner {
+    background: linear-gradient(#076B9E, steelblue, #076B9E);
+    color: white;
+    padding: 10px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    margin-top: -15px;
+}
+
+.body {
+    box-sizing: content-box;
+    background: linear-gradient(#E4E4E4, white 30%);
+}
+
+.sidePanel {
+    height: 450px;
+    width: 140px;
+    background: linear-gradient(#E4E4E4, white);
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sideSubPanel1 {
+    margin-top: 15px;
+    border-bottom: 1px solid grey;
+    padding: 15px 0px;
+}
+
+#sideSubpanel2 {
+    background-image: url("../img/ad_background.png");
+    height: 228px;
+    margin-top: 15px;
+    padding: 15px 3px;
+}
+
+.bodycontent {
+    height: 300px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.bodyHead {
+    border-bottom: 2px solid grey;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#phone {
+    height: 30px;
+    width: 30px;
+    margin: 5px 3px;
+}
+
+.phone {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.txtTitle {
+    color: steelblue;
+    font-size: 9pt;
+    margin-top: 3px;
+    margin-right: 365px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.txt6 {
+    font-size: 6pt;
+}
+
+.txt12 {
+    font-size: 14pt;
+}
+
+.bodyCont1 {
+    margin: 7px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bodyCont2 {
+    border-left: 3px solid steelblue;
+    border-top: 3px solid steelblue;
+    border-right: 3px solid steelblue;
+}
+
+.bodyCont3 {
+    width: 400px;
+    margin: 7px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main2 {
+    background-color: ivory;
+    padding: 10px;
+}
+
+.vidBttn {
+    background-color: steelblue;
+    color: white;
+    border-radius: 5px;
+    width: 135px;
+    height: 25px;
+    border: none;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+
+.resBttn {
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    width: 135px;
+    height: 25px;
+    border: none;
+    margin-left: 2px;
+}
+
+.coral {
+    color: coral;
+}
+
+.white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+#ninja {
+    height: 100px;
+    width: 70px;
+    margin-left: 35px;
+}
+
+#clsr {
+    height: 70px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#home {
+    height: 15px;
+    width: 15ßpx;
+}
+
+#lng {
+    height: 70px;
+    width: 80px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#learnMore {
+    background-color: skyblue;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+}
+
+.blue {
+    color: #00C0DD;
+}
+
+.steelblue {
+    color: steelblue;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    color: steelblue;
+    margin: 2px 0px;
+}
+
+p {
+    margin: 3px 0px;
+}
+
+li {
+    margin: 3px 0px;
+}
+
+h4 {
+    margin: 2px 0px;
+}
+
+ol {
+    list-style-position: inside;
+    margin: 0px 0px 0px 10px;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0px 0px 0px 10px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #B3B3B3;
+}
+.main{
+    background-color: #CCCCCC;
+}
+.phonewidth{
+    background-color: #FFFF9A;
+}
+
+@media screen and (min-width: 1024px) {
+    .screen-size-info .text-desktop::after {
+        font-weight: bold;
+    }
+    
+    .screen-size-info .text-tablet {
+        display: none;
+    }
+    .screen-size-info .text-phone {
+        display: none;
+    }
+    .screen-size-info .text-desktop::after{
+        content: "Greater than or equal to 1024px";
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    .screen-size-info .text-tablet::after {
+        font-weight: bold;
+    }
+    .screen-size-info .text-desktop {
+        display: none;
+    }
+    .screen-size-info .text-phone {
+        display: none;
+    }
+    .screen-size-info .text-tablet::after{
+        content: "between 481px and 1023px";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .screen-size-info .text-phone::after {
+        font-weight: bold;
+    }
+    .screen-size-info .text-desktop {
+        display: none;
+    }
+    .screen-size-info .text-tablet {
+        display: none;
+    }
+    .screen-size-info .text-phone::after{
+        content: "less than or equal to 480px";
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Mi primer formulario de Registro</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" name="apellido"></td>
+            </tr>
+            <tr>
+                <td>Correo:</td>
+                <td><input type="text" name="correo"></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>Confirmación</td>
+                <td><input type="text" name="confirmacion"></td>
+            </tr>
+        </table>
+        <br>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="Otro">Otro</label>
+        <input type="radio" id="Otro" name="genero" value="Otro">
+        <br>
+        <br>
+        <label for="birthdate">Cumpleaños:</label>
+        <input type="date" id="birthdate" name="Cumpleaños">
+        <br>
+        <br>
+        <textarea name="description"></textarea>
+        <br>
+        <br>
+        <label for="lenguajes_de_programacion">Lenguaje Favorito:</label>
+        <select name="lenguajes_de_programacion" id="lenguajes_de_programacion">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer css</title>
+    <style>
+        div {
+              border-color: black;
+              border-width: 3px;
+              border-style: solid;
+            }
+        .cuadrado_amarillo{
+            background-color: yellow;
+            height: 120px;
+            width:  21%;
+            display: inline-block;
+            margin: 15px;
+            margin-right: 56px;
+
+        }
+        #div_tres{
+            background-color: red;
+            height: 302px;
+            width: 651px;
+            margin-left: 246px;
+            margin-top: -310px;
+
+            
+        }
+        #div_ocho{
+            background-color: purple;
+            height: 108px;
+            width: 572px;
+            margin: 16px;
+        }
+        #div_cuatro{
+            background-color: blue;
+            height: 316px;
+            width: 200px; 
+            margin-left: 16px;
+        }
+        #div_uno{
+            background-color: gray;
+            width: 946px;
+            height: 500px;
+            margin: 15px;
+
+
+        }
+        #div_dos{
+            background-color: forestgreen;
+            height: 100px;
+            margin: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id = "div_uno">
+        <div id = "div_dos">div_dos</div>
+        <div id = "div_cuatro">div_cuatro</div>
+        <div id = "div_tres">
+            <div class = "cuadrado_amarillo" id = "div_cinco">div_cinco</div>
+            <div class = "cuadrado_amarillo" id = "div_seis">div_seis</div>
+            <div class = "cuadrado_amarillo" id = "div_siete">div_siete</div>
+            <div id = "div_ocho">div_ocho</div>
+        </div>
+
+    </div>
+</body>
+</html>
