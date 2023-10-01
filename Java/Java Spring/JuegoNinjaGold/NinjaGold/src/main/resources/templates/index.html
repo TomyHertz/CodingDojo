@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Ninja Gold</title>
+</head>
+<body>
+    <h1>Ninja Gold</h1>
+    <p>Your gold: <span th:text="${gold}"></span></p>
+    
+    <h2>Activities:</h2>
+    <ul>
+        <li th:each="activity : ${activities}" th:text="${activity}"></li>
+    </ul>
+    
+    <form th:action="@{/process}" method="post">
+        <button type="submit" name="place" value="farm">Farm</button>
+        <button type="submit" name="place" value="cave">Cave</button>
+        <button type="submit" name="place" value="house">House</button>
+        <button type="submit" name="place" value="casino">Casino</button>
+        <!-- Add more buttons for additional places if needed -->
+    </form>
+</body>
+</html>

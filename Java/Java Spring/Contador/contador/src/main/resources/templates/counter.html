@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <p>Counter value: <span th:text="${count}"></span></p>
+    <p><a th:href="@{/increment}">Increment Counter</a></p>
+    <p><a th:href="@{/reset}">Reset Counter</a></p>
+</body>
+</html>

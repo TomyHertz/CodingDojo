@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Current Date</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/date.css}" />
+</head>
+<body>
+    <h1>Current Date</h1>
+    <p>The current date is: <span th:text="${formattedDate}"></span></p>
+    <script type="text/javascript" th:src="@{/js/date.js}"></script>
+</body>
+</html>
